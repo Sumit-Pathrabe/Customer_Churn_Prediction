@@ -87,7 +87,14 @@ const Analytics: React.FC<AnalyticsProps> = ({ customers, loading }) => {
       { month: 'Mar', newCustomers: 38, retained: 36, churnRate: 5.3 },
       { month: 'Apr', newCustomers: 61, retained: 55, churnRate: 9.8 },
       { month: 'May', newCustomers: 47, retained: 44, churnRate: 6.4 },
-      { month: 'Jun', newCustomers: 55, retained: 51, churnRate: 7.3 }
+      { month: 'Jun', newCustomers: 55, retained: 51, churnRate: 9.2 },
+      { month: 'Jul', newCustomers: 52, retained: 64, churnRate: 5.8 },
+      { month: 'Aug', newCustomers: 37, retained: 76, churnRate: 6.4 },
+      { month: 'Sept', newCustomers: 32, retained: 54, churnRate: 7.9 },
+      { month: 'Oct', newCustomers: 40, retained: 47, churnRate: 8.7},
+      { month: 'Nov', newCustomers: 25, retained: 16, churnRate: 6.9 },
+      { month: 'Dec', newCustomers: 64, retained: 57, churnRate: 8.2 }
+
     ];
 
     // Feature importance radar chart
